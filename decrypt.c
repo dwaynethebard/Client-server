@@ -21,7 +21,7 @@ void decode(char* file_input, char* file_output)
   FILE * dencryptweet; //pointer for file
   dencryptweet=fopen(file_output,"w"); //opens blank file decrypted output and allows writing
 
-	char *str; //dynamic memory for the strings
+  char *str; //dynamic memory for the strings
 
   if(encryptweet!=NULL)// makes sure the files is there
   {
