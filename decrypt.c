@@ -11,7 +11,7 @@ TA: Scott Kristjanson
 #include <stdlib.h>
 #include <math.h>
 #include "memwatch.h"
-#include "FUNctions.h" 
+#include "functions.h" 
 void decode(char* file_input, char* file_output)
 {
  
