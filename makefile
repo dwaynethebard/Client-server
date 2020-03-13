@@ -1,12 +1,3 @@
-#####################################
-#Name:Darren Ytsma					#
-#student number:301171125			#
-#SFU username:dytsma				#
-#Lecture section: CPMT 300 D100		#
-#instructor: Brian Booth			#
-#TA: Scott Kristjanson				#
-#####################################
-
 .SUFFIXES: .h .o .c
 
 CCMAIN = client.c memwatch.c server.c
@@ -14,7 +5,7 @@ CC = gcc
 CCOPTS = -g
 LIBS = -lm
 OBJS1 = client.o decrypt.o memwatch.o FUNctions.o socketfunctions.o
-OBJS2 = server.o memwatch.o FUNctions.o socketfunctions.o
+OBJS2 = server.o memwatch.o functions.o socketfunctions.o
 CCEXEC1 = lyrebird.client
 CCEXEC2 = lyrebird.server
 
